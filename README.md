@@ -1,0 +1,2 @@
+# Kotlin removeIf() Gotcha
+This example demonstrates a potential pitfall when using the `removeIf()` function with mutable lists and sets in Kotlin.  The function modifies the collection *in place*, which might lead to unexpected results if you're not aware of this behavior. The example shows how to use the function properly and to avoid potential errors.
